@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 13 Dec 2024 22:54:23 at https://puriandsue.com/cameron-lavender-garden-tringkap-cameron-highlands/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://puriandsue.com/cameron-lavender-garden-tringkap-cameron-highlands/ -O1 "C:\My Web Sites\ASSIGNMENT ICM561\Puri and Sue\ASSIGNMENT ICM561" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:54:54	Error: 	"Not Found" (404) at link https://puriandsue.com/cameron-lavender-garden-tringkap-cameron-highlands/Trident/ (from https://puriandsue.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.16.6)
+22:54:54	Error: 	"Not Found" (404) at link https://puriandsue.com/cameron-lavender-garden-tringkap-cameron-highlands/-negative.svg (from https://puriandsue.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.16.6)
+22:54:54	Error: 	"Not Found" (404) at link https://puriandsue.com/cameron-lavender-garden-tringkap-cameron-highlands/OPR/ (from https://puriandsue.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.16.6)
+
+HTTrack Website Copier/3.49-2 mirror complete in 31 seconds : 92 links scanned, 88 files written (4234173 bytes overall) [3143754 bytes received at 101411 bytes/sec], 1576812 bytes transferred using HTTP compression in 48 files, ratio 20%, 11.5 requests per connection
+(3 errors, 0 warnings, 0 messages)
