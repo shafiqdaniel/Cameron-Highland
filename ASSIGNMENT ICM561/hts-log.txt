@@ -1,0 +1,38 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 17 Dec 2024 00:48:46 at https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden -O1 "C:\My Web Sites\ASSIGNMENT ICM561\TripHobo\ASSIGNMENT ICM561" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:49:02	Error: 	"Forbidden" (403) at link https://www.triphobo.com/img/desktop/white-close-icon.png (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:02	Error: 	"Forbidden" (403) at link https://www.triphobo.com/img/desktop/submit-query.png (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:02	Error: 	"Forbidden" (403) at link https://www.triphobo.com/img/desktop/black_patch.png (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:02	Error: 	"Forbidden" (403) at link https://www.triphobo.com/img/desktop/sprites/ak-2-new.png?110320201836?1234 (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:02	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:02	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/best-time-to-visit (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:02	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/how-to-reach (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:06	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/restaurants (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:06	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/city-map (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:06	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/things-to-do (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:14	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/ee-feng-gu-bee-farm (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:16	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/sam-poh-temple (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:16	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/gunung-brinchang (from https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden)
+00:49:20	Error: 	"Forbidden" (403) at link https://ak2.jogurucdn.com/resources_version/desktop/js/live/compressed_js/p0/city_events_festivals_a768f517dea3e1243c8822aa25c77165.js (from https://www.triphobo.com/places/cameron-highlands-malaysia/events-festivals)
+00:49:20	Error: 	"Forbidden" (403) at link https://ak1.jogurucdn.com/assets/styles/live/desktop/city_events_festivals_bottom.css?cache_bust=220120240101 (from https://www.triphobo.com/places/cameron-highlands-malaysia/events-festivals)
+00:49:20	Error: 	"Forbidden" (403) at link https://ak2.jogurucdn.com/resources_version/desktop/js/live/compressed_js/p1/city_events_festivals_f6dc9d271c8416aaef44a7192ad4257c.js (from https://www.triphobo.com/places/cameron-highlands-malaysia/events-festivals)
+00:49:20	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/things-to-do/family-and-kids?t_cnt=28&page=2 (from https://www.triphobo.com/places/cameron-highlands-malaysia/things-to-do/family-and-kids)
+00:49:20	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-lavender-garden (from https://www.triphobo.com/places/cameron-highlands-malaysia/things-to-do/family-and-kids)
+00:49:20	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/raju-hill-strawberry-farm (from https://www.triphobo.com/places/cameron-highlands-malaysia/things-to-do/family-and-kids)
+00:49:23	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/kok-lim-strawberry-farm (from https://www.triphobo.com/places/cameron-highlands-malaysia/things-to-do/family-and-kids)
+00:49:23	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/tans-camellia-garden (from https://www.triphobo.com/places/cameron-highlands-malaysia/things-to-do/family-and-kids)
+00:49:26	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/things-to-do/museums (from https://www.triphobo.com/places/cameron-highlands-malaysia/time-tunnel-museum)
+00:49:26	Error: 	"Forbidden" (403) at link https://ak1.jogurucdn.com/assets/img/desktop/sprites/new-footer-logos-sprite-opt2.png (from https://ak1.jogurucdn.com/assets/styles/live/desktop/adda_view_bottom.css?cache_bust=220120240101)
+00:49:26	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/mah-meri-art-gallery (from https://www.triphobo.com/places/cameron-highlands-malaysia/cactus-valley)
+00:49:26	Error: 	"Forbidden" (403) at link https://www.triphobo.com/places/cameron-highlands-malaysia/thompson-falls (from https://www.triphobo.com/places/cameron-highlands-malaysia/church-of-our-lady-of-mount-carmel)
+00:49:26	Error: 	"Forbidden" (403) at link https://ak1.jogurucdn.com/assets/img/desktop/submit-query.png (from https://ak1.jogurucdn.com/assets/styles/live/desktop/city_things_to_do_bottom.css?cache_bust=021620240355)
+00:49:26	Error: 	"Forbidden" (403) at link https://ak1.jogurucdn.com/assets/img/desktop/sprites/atr-sprite-new-img-1.png (from https://ak1.jogurucdn.com/assets/styles/live/desktop/city_things_to_do_bottom.css?cache_bust=021620240355)
+
+HTTrack Website Copier/3.49-2 mirror complete in 40 seconds : 91 links scanned, 63 files written (5182106 bytes overall) [2083897 bytes received at 52097 bytes/sec], 4218151 bytes transferred using HTTP compression in 17 files, ratio 25%, 6.2 requests per connection
+(27 errors, 0 warnings, 0 messages)
