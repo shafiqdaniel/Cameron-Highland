@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places In Cameron Highland</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #D9EAD3;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #3B2F2F;
+            padding: 0 20px;
+            height: 80px; /* Increased navbar height */
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .navbar .nav-links li {
+            position: relative;
+        }
+
+        .navbar .nav-links a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 20px 25px; /* Increased padding */
+            font-size: 20px; /* Increased font size */
+        }
+
+        .navbar .nav-links a:hover {
+            background-color: #575757;
+        }
+
+        /* Dropdown styling */
+        .navbar .dropdown {
+            position: relative;
+        }
+
+        .navbar .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #3B2F2F;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            top: 100%; /* Position dropdown directly below the button */
+            left: 0; /* Align with the left of the parent button */
+        }
+
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .navbar .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .navbar .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        /* Move "About Us" button to the far right */
+        .navbar .about-us {
+            margin-left: auto;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: 20px auto;
+        }
+
+        .mySlides {
+            display: none;
+            text-align: center;
+        }
+
+        .mySlides img {
+            border-radius: 40px;
+            width: 90%;
+            height: 600px; /* You can adjust the height as needed */
+            object-fit: cover; /* Ensures the image covers the container without distortion */
+        }
+
+        /* Next & previous buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            user-select: none;
+            border-radius: 50%;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        .prev {
+            left: 10%;
+        }
+
+        .next {
+            right: 10%;
+        }
+
+        /* Main content styling */
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #FFE5D9;
+        }
+
+        .main-content .text-content {
+            width: 50%; /* Set text content to the left side */
+            padding: 20px;
+        }
+
+        .main-content .text-content .welcome {
+            font-size: 48px; /* Increased font size */
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .main-content .text-content .description {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify; /* Justify the text */
+        }
+
+        .main-content .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 45%; /* Set image grid to the right side */
+        }
+
+        .main-content .image-grid img {
+            width: 100%;
+            height: 300px; /* Set fixed height for all images */
+            object-fit: cover; /* Ensure images are resized without distortion */
+            border-radius: 8px;
+        }
+
+        /* Button styling */
+        .visit-btn {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px; /* Adds space above the button */
+            transition: background-color 0.3s;
+        }
+
+        .visit-btn:hover {
+            background-color: #575757;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #3B2F2F;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Explore</a>
+                <div class="dropdown-content">
+                    <a href="website.html">Website</a>
+                    <a href="httrack.html">HTTrack</a>
+                    <a href="conifer.html">WARC Files</a> <!-- Added Conifer page -->
+
+                </div>
+            </li>
+            <li><a href="gallery.html">Gallery</a></li>
+	
+        </ul>
+        <ul class="nav-links">
+            <li class="about-us"><a href="about us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slideshow Section -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="assets/picture/slides1.jpg" alt="Slide 1">
+        </div>
+        <div class="mySlides fade">
+            <img src="assets/picture/slides2.jpg" alt="Slide 2">
+        </div>
+        <div class="mySlides fade">
+            <img src="assets/picture/slides3.jpg" alt="Slide 3">
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="text-content">
+            <div class="welcome">WELCOME TO OUR CAMERON HIGHLAND WEBSITE!</div>
+            <div class="description">
+                Welcome to Cameron Highland, a place where the beauty of nature meets serenity. <br> Nestled in the heart of Malaysia, Cameron Highland offers a tranquil escape <br> surrounded by lush tea plantations, vibrant flower gardens, and cool misty weather. <br> Whether you're looking for a peaceful retreat in nature, a delightful exploration of <br> local culture, or an adventure through picturesque landscapes, Cameron Highland is <br> the perfect destination for everyone. Discover the hidden gems of this beautiful hill <br> station and enjoy breathtaking views and fresh, crisp air.
+            </div>
+            <!-- Visit Button -->
+            <a href="gallery.html" class="visit-btn">GALLERY</a>
+        </div>
+        <div class="image-grid">
+            <img src="assets/picture/home1.jpg" alt="Home 1">
+            <img src="assets/picture/home2.jpg" alt="Home 2">
+            <img src="assets/picture/home3.jpg" alt="Home 3">
+            <img src="assets/picture/home4.jpg" alt="Home 4">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 PLACES IN CAMERON HIGHLAND. All Rights Reserved.
+    </footer>
+
+    <!-- Slideshow Script -->
+    <script>
+        let slideIndex = 1;
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            if (slideIndex < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+            slideIndex++;
+        }
+
+        // Change slide every 2 seconds (2000 milliseconds)
+        setInterval(showSlides, 2000);
+
+        // Initial call to show the first slide
+        showSlides();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>httrack - Places in Cameron Highland</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #D9EAD3;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #3B2F2F;
+            padding: 0 20px;
+            height: 80px;
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .navbar .nav-links li {
+            position: relative;
+        }
+
+        .navbar .nav-links a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 20px 25px;
+            font-size: 20px;
+        }
+
+        .navbar .nav-links a:hover {
+            background-color: #575757;
+        }
+
+        /* Dropdown styling */
+        .navbar .dropdown {
+            position: relative;
+        }
+
+        .navbar .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #3B2F2F;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            top: 100%;
+            left: 0;
+        }
+
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .navbar .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .navbar .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        /* Move "About Us" button to the far right */
+        .navbar .about-us {
+            margin-left: auto;
+        }
+
+        /* Banner image styling */
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FD9EAD3;
+            padding: 20px;
+        }
+
+        .banner img {
+            max-width: 90%;
+            height: 300px;
+            border-radius: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Content section styling */
+        .content {
+            padding: 20px;
+            background-color: #FFE5D9;
+            min-height: 600px;
+        }
+
+        .content h2 {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            color: #3B2F2F;
+            margin-bottom: 20px;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        thead tr {
+            background-color: #3B2F2F;
+            color: white;
+            font-weight: bold;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f3f3f3;
+        }
+
+        tr:hover {
+            background-color: #f1e1e1;
+        }
+
+        /* Button styling */
+        .view-btn {
+            display: inline-block;
+            background-color: #3B2F2F;
+            color: white;
+            padding: 8px 16px;
+            font-size: 14px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none; /* Remove underline from links */
+        }
+
+        .view-btn:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Explore</a>
+                <div class="dropdown-content">
+                    <a href="website.html">Website</a>
+                    <a href="#httrack">HTTrack</a>
+                    <a href="conifer.html">WARC Files</a>
+                </div>
+            </li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        <ul class="nav-links">
+            <li class="about-us"><a href="about us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <img src="assets/picture/httrack1.png" alt="Banner Image"> <!-- Replace with your image path -->
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <!-- Title -->
+        <h2>Places in Cameron Highland</h2>
+
+        <!-- Table Section -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Bil</th>
+                    <th>Website Name</th>
+                    <th>Archive Success (YES/NO)</th>
+                    <th>Duration</th>
+                    <th>Size of File Archive (MB)</th>
+                    <th>URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+  <td>1</td>
+  <td>Gyppo Travel Reviews</td>
+  <td>YES</td>
+  <td>41 seconds</td>
+  <td>5.79 MB</td>
+  <td><a href="link1/link1/index.html" class="view-btn" target="_blank">VIEW</a></td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Puri and Sue</td>
+  <td>YES</td>
+  <td>31 seconds</td>
+  <td>4.23 MB</td>
+  <td><a href="link2/link2/index.html" class="view-btn" target="_blank">VIEW</a></td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>Century Pines Resort</td>
+  <td>YES</td>
+  <td>3 minutes 33 seconds</td>
+  <td>33 MB</td>
+  <td><a href="link3/link3/index.html" class="view-btn" target="_blank">VIEW</a></td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Trip Hobo</td>
+  <td>YES</td>
+  <td>40 seconds</td>
+  <td>5.18 MB</td>
+  <td><a href="link4/link4/index.html" class="view-btn" target="_blank">VIEW</a></td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>Travel With Sun</td>
+  <td>YES</td>
+  <td>29 seconds</td>
+  <td>4.51 MB</td>
+  <td><a href="link5/link5/index.html" class="view-btn" target="_blank">VIEW</a></td>
+</tr>
+
+<tr><td>6</td><td>Explore Camerons</td><td>YES</td><td>17 seconds</td><td>5.18 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>7</td><td>Century Pines Resort</td><td>YES</td><td>3 minutes 17 seconds</td><td>31.58 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>8</td><td>MARDI Agrotech Park</td><td>YES</td><td>19 minutes 44 seconds</td><td>757.28 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>9</td><td>Ali Usman Baig</td><td>YES</td><td>3 minutes 56 seconds</td><td>21.45 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>10</td><td>Malaysian Flavour</td><td>NO</td><td>34 seconds</td><td>3.98 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>11</td><td>Abang Strawberry</td><td>NO</td><td>1 minute 56 seconds</td><td>13.96 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>12</td><td>Cameron Highland District Council</td><td>YES</td><td>31 seconds</td><td>1.37 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>13</td><td>Forever Vacation</td><td>YES</td><td>2 minutes 45 seconds</td><td>42.87 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>14</td><td>Brinchang Night Market</td><td>NO</td><td>5 minutes 28 seconds</td><td>26.64 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>15</td><td>Kea Farm market in Cameron Highlands</td><td>YES</td><td>1 minute 2 seconds</td><td>3.43 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>16</td><td>Green View Garden</td><td>YES</td><td>19 minutes 6 seconds</td><td>757.28 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>17</td><td>Avant Chocolate</td><td>YES</td><td>35 seconds</td><td>4.52 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>18</td><td>Destinasi Cameron Highland</td><td>YES</td><td>6 minutes 20 seconds</td><td>33.78 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>19</td><td>Kuanju.wordpress</td><td>YES</td><td>1 minute 23 seconds</td><td>2.84 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>20</td><td>Cik Kak Yang</td><td>YES</td><td>13 minutes 6 seconds</td><td>33.91 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>21</td><td>Visit Perak</td><td>YES</td><td>42 seconds</td><td>1.53 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>22</td><td>The Yum List</td><td>NO</td><td>20 seconds</td><td>2.44 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>23</td><td>Chasing The Suns</td><td>NO</td><td>7 minutes 10 seconds</td><td>37.4 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>24</td><td>Cameron Highlands info</td><td>YES</td><td>22 seconds</td><td>565.9 KB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>25</td><td>Big Red Farm</td><td>YES</td><td>21 seconds</td><td>2.36 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>26</td><td>Gunung Irau</td><td>YES</td><td>1 minute 36 seconds</td><td>3.32 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>27</td><td>BOH Tea</td><td>NO (MIRROR ERROR)</td><td>NO</td><td>NO</td><td><a class="view-btn">VIEW</a></td></tr>
+<tr><td>28</td><td>kohadventures</td><td>YES</td><td>42 seconds</td><td>8.57 MB</td><td><a class="view-btn">VIEW</a></td></tr>
+
+            </tbody>
+        </table>
+    </div>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Places in Cameron Highland. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

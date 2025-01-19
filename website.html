@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website - Cameron Highland</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #D9EAD3;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #3B2F2F;
+            padding: 0 20px;
+            height: 80px;
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .navbar .nav-links li {
+            position: relative;
+        }
+
+        .navbar .nav-links a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 20px 25px;
+            font-size: 20px;
+        }
+
+        .navbar .nav-links a:hover {
+            background-color: #575757;
+        }
+
+        /* Dropdown styling */
+        .navbar .dropdown {
+            position: relative;
+        }
+
+        .navbar .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #3B2F2F;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            top: 100%;
+            left: 0;
+        }
+
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .navbar .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .navbar .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        /* Move "About Us" button to the far right */
+        .navbar .about-us {
+            margin-left: auto;
+        }
+
+        /* Banner image styling */
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FD9EAD3;
+            padding: 20px;
+        }
+
+        .banner img {
+            max-width: 100%;
+            height: 400px;
+            border-radius: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Content section styling */
+        .content {
+            padding: 20px;
+            background-color: #FFE5D9;
+            min-height: 600px;
+        }
+
+        .content h2 {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            color: #3B2F2F;
+            margin-bottom: 20px;
+        }
+
+        .content h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        thead tr {
+            background-color: #3B2F2F;
+            color: white;
+            font-weight: bold;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center; /* Centers text and button in cells */
+            vertical-align: middle; /* Centers vertically */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f3f3f3;
+        }
+
+        tr:hover {
+            background-color: #f1e1e1;
+        }
+
+        /* Button styling */
+        .view-btn {
+            display: inline-block;
+            background-color: #3B2F2F;
+            color: white;
+            padding: 8px 16px;
+            font-size: 14px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .view-btn:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Explore</a>
+                <div class="dropdown-content">
+                    <a href="website.html">Website</a>
+                    <a href="httrack.html">HTTrack</a>
+                    <a href="conifer.html">WARC Files</a>
+                </div>
+            </li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        <ul class="nav-links">
+            <li class="about-us"><a href="about us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <img src="assets/picture/website1.jpg" alt="Banner Image"> <!-- Replace with your image path -->
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        
+        <!-- Title -->
+        <h2>WEBSITE ABOUT CAMERON HIGHLAND</h2>
+        
+        <!-- Table Section -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Bil</th>
+                    <th>Website Name</th>
+                    <th>Title</th>
+                    <th>Type of Website</th>
+                    <th>View</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example row with updated URLs -->
+                <tr>
+                    <td>1</td>
+                    <td>Gyppo Travel Reviews</td>
+                    <td>Boh Tea Centre, Brinchang</td>
+                    <td>Blog Site</td>
+                    <td><button class="view-btn" onclick="window.open('https://gyppotravelreviews.wordpress.com/2022/01/11/boh-tea-centre-brinchang-3/')">VIEW</button></td>
+                </tr>
+                
+                <tr><td>2</td><td>Puri and Sue</td><td>Cameron Lavender Garden</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://puriandsue.com/cameron-lavender-garden-tringkap-cameron-highlands/')">VIEW</button></td></tr>
+                <tr><td>3</td><td>Century Pines Resort</td><td>Rose Valley</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://www.centurypinesresort.com/ms/activity-cameron-highlands/rose-valley')">VIEW</button></td></tr>
+                <tr><td>4</td><td>Trip Hobo</td><td>Cameron Highlands Butterfly Garden</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://www.triphobo.com/places/cameron-highlands-malaysia/cameron-highlands-butterfly-garden')">VIEW</button></td></tr>
+                <tr><td>5</td><td>Travel With Sun</td><td>The Sheep Sanctuary At Cameron Highlands</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://www.travelswithsun.com/the-sheep-sanctuary-at-cameron-highlands/')">VIEW</button></td></tr>
+                <tr><td>6</td><td>Explore Camerons</td><td>Big Red Strawberry Farm – Spacious And Entirely Free To Visit!</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://explorecamerons.com/big-red-strawberry-farm/')">VIEW</button></td></tr>
+                <tr><td>7</td><td>Century Pines Resort</td><td>Cactus Valley</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://www.centurypinesresort.com/activity-cameron-highlands/cactus-valley')">VIEW</button></td></tr>
+                <tr><td>8</td><td>MARDI Agrotech Park</td><td>AGRO TECHNOLOGY PARK IN MARDI CAMERON HIGHLANDS</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://www.cameronhighland.net/mardi-agro-technology-park.html')">VIEW</button></td></tr>
+                <tr><td>9</td><td>Ali Usman Baig</td><td>Sam Poh Buddhist Temple Cameron Highlands, Pahang.</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://aliusmanbaig.blogspot.com/2018/01/sam-poh-buddhist-temple.html')">VIEW</button></td></tr>
+                <tr><td>10</td><td>Malaysian Flavour</td><td>Time Tunnel Museum Cameron Highlands: A Gallery of Nostalgic Memories</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://www.malaysianflavours.com/2017/02/time-tunnel-museum-cameron-highlands.html')">VIEW</button></td></tr>
+                <tr><td>11</td><td>Abang Strawberry</td><td>NO.1 NASI LEMAK STRAWBERI DI MALAYSIA</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://www.abangstrawberry.com.my/ms')">VIEW</button></td></tr>
+                <tr><td>12</td><td>Cameron Highland District Council</td><td>EE Feng Gu Farm</td><td>Gov Website</td><td><button class="view-btn" onclick="window.open('http://www.mdcameron.gov.my/en/visitors/places-interest/ee-feng-gu-farm')">VIEW</button></td></tr>
+                <tr><td>13</td><td>Forever Vacation</td><td>Mah Meri Art Gallery</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://forevervacation.com/cameron-highlands/mah-meri-art-gallery')">VIEW</button></td></tr>
+                <tr><td>14</td><td>Brinchang Night Market</td><td>Cameron Highlands Night Market (Pasar Malam)</td><td>News Website</td><td><button class="view-btn" onclick="window.open('https://www.cameron-highland-destination.com/brinchang-night-market.html')">VIEW</button></td></tr>
+                <tr><td>15</td><td>Kea Farm market in Cameron Highlands</td><td>Kea Farm market in Cameron Highlands</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://www.thestar.com.my/metro/metro-news/2024/09/20/call-to-relocate-kea-farm-market-in-cameron-highlands')">VIEW</button></td></tr>
+                <tr><td>16</td><td>Green View Garden</td><td>Green View Garden Cameron Highlands</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://www.cameronhighland.net/green-view-garden.htm')">VIEW</button></td></tr>
+                <tr><td>17</td><td>Yanie Yusuf</td><td>Avant Chocolate Cameron Highlands Antara Lokasi Menarik Untuk Dikunjungi</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://yanieyusuf.com/2018/01/lokasi-menarik-cameron-highlands-avant-chocolate/')">VIEW</button></td></tr>
+                <tr><td>18</td><td>Destinasi Cameron Highland</td><td>Kg.Tradisional Taman Sedia</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://destinasicameronhighlands.blogspot.com/2011/03/kgtradisional-taman-sedia.html')">VIEW</button></td></tr>
+                <tr><td>19</td><td>Kuanju.wordpress</td><td>Butterfly Farm @ Cameron Highlands, Malaysia</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://kuanju.wordpress.com/2013/02/26/butterfly-farm-cameron-highlands/')">VIEW</button></td></tr>
+                <tr><td>20</td><td>Cik Kak Yang</td><td>Gunung Brinchang Barat checked!</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://cikkakyang.blogspot.com/2020/07/gunung-brinchang-barat-checked.html')">VIEW</button></td></tr>
+                <tr><td>21</td><td>Visit Perak</td><td>Hobbitoon Village</td><td>Gov Website</td><td><button class="view-btn" onclick="window.open('https://visitperak.com.my/hobbitoon-village/')">VIEW</button></td></tr>
+<tr><td>22</td><td>The Yum List</td><td>The Jim Thompson Tea Room, Cameron Highlands Resort, Pahang</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://www.theyumlist.net/2016/07/the-jim-thompson-tea-room-cameron-highlands-resort-pahang.html')">VIEW</button></td></tr>
+<tr><td>23</td><td>Chasing The Suns</td><td>Hotel Tour #3 : A'Moss Farmstay Cameron Highland | Igloo-like Glamping Experience</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('http://www.chasingthesuns.com/2020/02/hotel-tour-3-amoss-farmstay-cameron.html')">VIEW</button></td></tr>
+<tr><td>24</td><td>Cameron Highlands Info</td><td>Cameron Adventurous ATV & Safari</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('http://www.cameronhighlandsinfo.com/entertainment/atvsafari/')">VIEW</button></td></tr>
+<tr><td>25</td><td>Big Red Farm</td><td>Harga Tiket Big Red Strawberry Farm 2023</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://tempatcuti.my/big-red-strawberry-farm/')">VIEW</button></td></tr>
+<tr><td>26</td><td>Gunung Irau</td><td>Gunung Irau 2024</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://sgtrek.com/event/gunung-irau-2024/')">VIEW</button></td></tr>
+<tr><td>27</td><td>BOH Tea</td><td>Boh Tea</td><td>Commerce Site</td><td><button class="view-btn" onclick="window.open('https://bohtea.com/about/our-history/')">VIEW</button></td></tr>
+<tr><td>28</td><td>Koh Adventures</td><td>Cameron Highlands – Misty Mountains</td><td>Blog Site</td><td><button class="view-btn" onclick="window.open('https://www.kohadventures.com/wordpress/2023/12/cameron-highlands-misty-mountains/')">VIEW</button></td></tr>
+            </tbody>
+        </table>
+        
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Cameron Highland. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
